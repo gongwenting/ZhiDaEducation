@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5676fc</color>
+    <color name="colorPrimaryDark">#5676fc</color>
+    <color name="colorAccent">#5676fc</color>
+
+    <!--页面背景主色-->
+    <color name="gray">#999999</color>
+</resources>

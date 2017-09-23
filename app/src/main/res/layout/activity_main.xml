@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhida.zhidaeducation.widget.NoScrollViewPager
+        android:id="@+id/ncv_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c4c8cc" />
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/HomeRadioButtonTheme"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_main_tap_icon_home"
+            android:text="@string/icon_text_home" />
+
+        <RadioButton
+            android:id="@+id/rb_course"
+            style="@style/HomeRadioButtonTheme"
+            android:drawableTop="@drawable/selector_main_tap_now_icon_course"
+            android:text="@string/icon_text_course" />
+
+        <RadioButton
+            android:id="@+id/rb_notice"
+            style="@style/HomeRadioButtonTheme"
+            android:drawableTop="@drawable/selector_main_tap_icon_notice"
+            android:text="@string/icon_text_notice" />
+
+        <RadioButton
+            android:id="@+id/rb_community"
+            style="@style/HomeRadioButtonTheme"
+            android:drawableTop="@drawable/selector_main_tap_icon_community"
+            android:text="@string/icon_text_community" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/HomeRadioButtonTheme"
+            android:drawableTop="@drawable/selector_main_tap_icon_mine"
+            android:text="@string/icon_text_mine" />
+
+    </RadioGroup>
+</LinearLayout>
